@@ -34,7 +34,7 @@ export default function LinksPage() {
       opacity: 1, 
       y: 0,
       transition: {
-        delay: 1.5, // Delay the footer animation
+        delay: 1.5, 
         duration: 0.5
       }
     }
