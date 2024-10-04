@@ -18,7 +18,6 @@ export default function LinksPage() {
         staggerChildren: 0.2
       }
     }
-    
   }
 
   const itemVariants = {
@@ -26,6 +25,18 @@ export default function LinksPage() {
     visible: {
       y: 0,
       opacity: 1
+    }
+  }
+
+  const footerVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { 
+      opacity: 1, 
+      y: 0,
+      transition: {
+        delay: 1.5, // Delay the footer animation
+        duration: 0.5
+      }
     }
   }
 
@@ -42,7 +53,6 @@ export default function LinksPage() {
               className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg"
               variants={itemVariants}
             >
-             
               <Image
                 src="/placeholder.svg"
                 alt="Micael Henrique"
@@ -63,7 +73,7 @@ export default function LinksPage() {
                 { icon: Mail, text: "Entre em contato!" }
               ].map((item, index) => (
                 <motion.div key={index} variants={itemVariants}
-                whileHover={{ scale: 1.1}}
+                whileHover={{ scale: 1.1 }}
                 >
                   <AnimatedButton 
                     variant="outline" 
@@ -71,18 +81,13 @@ export default function LinksPage() {
                     whileHover="hover"
                     initial="initial"
                     animate="animate"
-                    
-                    
                   >
                     <motion.div
                       className="absolute left-0 top-0 h-full bg-gradient-to-r from-white/5 to-white/40"
                       initial={{ width: 0 }}
-                     
                       variants={{
                         hover: { width: "100%" }
-                      
                       }}
-                     
                       transition={{ duration: 0.3 }}
                     />
                     <span className="relative z-10 flex items-center justify-center">
@@ -96,9 +101,16 @@ export default function LinksPage() {
           </motion.div>
         </Card>
       </motion.div>
-      <footer className="text-white mt-2"
-      ><a href="https://aureliodeboa.github.io/Portfolio/" >Desenvolvido por Aurelio Ribeiro</a></footer>
+      <motion.footer 
+        className="text-white mt-2"
+        variants={footerVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <a href="https://aureliodeboa.github.io/Portfolio/" className="hover:text-gray-300 transition-colors">
+          Desenvolvido por Aurelio Ribeiro
+        </a>
+      </motion.footer>
     </div>
-
   )
 }
