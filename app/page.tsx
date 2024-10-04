@@ -30,7 +30,7 @@ export default function LinksPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex items-center justify-center p-4 flex-col">
       <motion.div
         initial="hidden"
         animate="visible"
@@ -96,6 +96,9 @@ export default function LinksPage() {
           </motion.div>
         </Card>
       </motion.div>
+      <footer className="text-white mt-2"
+      ><a href="https://aureliodeboa.github.io/Portfolio/" >Desenvolvido por Aurelio Ribeiro</a></footer>
     </div>
+
   )
 }
