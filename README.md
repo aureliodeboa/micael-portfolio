@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# - Micael Henrique Contador
+![image](https://github.com/user-attachments/assets/99008ac9-e6d4-4810-b1c5-8fad4cbe363d)
+![image](https://github.com/user-attachments/assets/fb85f9bd-e071-4ac2-b4ec-1535f279c08c)
 
-## Getting Started
+## 📋 Sobre o Projeto
 
-First, run the development server:
+Este é um site profissional desenvolvido para Micael Henrique, um contador especializado em gestão tributária e consultoria para empresários e profissionais autônomos. O site serve como um hub central para conectar clientes aos serviços oferecidos e fornecer informações essenciais sobre sua atuação profissional.
 
+### ✨ Características Principais
+
+- Design responsivo e moderno
+- Seção "Sobre Mim" detalhada
+- Lista de serviços oferecidos
+- Conexão direta com redes sociais e contatos profissionais
+- Interface intuitiva e de fácil navegação
+
+## 🚀 Tecnologias Utilizadas
+
+- [Next.js 14](https://nextjs.org/) - Framework React com renderização do lado do servidor
+- [React](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utility-first
+- [TypeScript](https://www.typescriptlang.org/) - Superset JavaScript tipado
+- [Lucide Icons](https://lucide.dev/) - Ícones SVG consistentes
+- [Framer Motion](https://www.framer.com/motion/) - Biblioteca para animações
+
+## 📦 Instalação e Uso
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/aureliodeboa/micael-portfolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
+```bash
+cd micael-portfolio
+npm install
+# ou
+yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Execute o servidor de desenvolvimento:
+```bash
+npm run dev
+# ou
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Compatibilidade
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O site é totalmente responsivo e foi testado nos seguintes navegadores:
+- Google Chrome
+- Mozilla Firefox
+- Safari
+- Microsoft Edge
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Como Contribuir
 
-## Deploy on Vercel
+1. Faça um Fork do projeto
+2. Crie uma Branch para sua Feature (`git checkout -b feature/AmazingFeature`)
+3. Faça o Commit das suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Faça o Push para a Branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👨‍💻 Desenvolvedor
+
+Desenvolvido com 💜 por [Aurelio Ribeiro](https://github.com/aureliodeboa)
+
+## 📞 Contato
+
+- Micael Henrique - [LinkedIn](https://www.linkedin.com/in/micaelhenriquesp/)
+- Email - micaelhenriquesp@gmail.com
+- WhatsApp - (77) 98118-3262
+
+---
+⭐️ Se este projeto te ajudou, não esqueça de dar uma estrela!
