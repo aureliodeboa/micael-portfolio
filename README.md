@@ -1,10 +1,11 @@
 # - Micael Henrique Contador
-![image](https://github.com/user-attachments/assets/99008ac9-e6d4-4810-b1c5-8fad4cbe363d)
-![image](https://github.com/user-attachments/assets/fb85f9bd-e071-4ac2-b4ec-1535f279c08c)
-
 ## 📋 Sobre o Projeto
 
 Este é um site profissional desenvolvido para Micael Henrique, um contador especializado em gestão tributária e consultoria para empresários e profissionais autônomos. O site serve como um hub central para conectar clientes aos serviços oferecidos e fornecer informações essenciais sobre sua atuação profissional.
+
+![image](https://github.com/user-attachments/assets/99008ac9-e6d4-4810-b1c5-8fad4cbe363d)
+![image](https://github.com/user-attachments/assets/fb85f9bd-e071-4ac2-b4ec-1535f279c08c)
+
 
 ### ✨ Características Principais
 
